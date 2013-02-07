@@ -29,8 +29,8 @@ public class TestClient {
     String key = args[4];
     String value = args[5];
 
-    System.out.println("new RemoteApiOptions()\n" + ".server(\"" + server + "\", " + port + ").\n"
-        + "credentials(\"" + username + "\", \"" + password + "\")");
+    System.out.println("new RemoteApiOptions()\n" + ".server(\"" + server + "\", " + port + ")\n"
+        + ".credentials(\"" + username + "\", \"" + password + "\")");
     RemoteApiOptions options =
         new RemoteApiOptions().server(server, port).credentials(username, password);
 
